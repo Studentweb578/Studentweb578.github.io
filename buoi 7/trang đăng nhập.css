@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex: wrap;
+    margin: 0;
+    justify-content: space-between;
+}
+#leftsidebar{
+    width: 50%;
+    height: 100vh;
+    background-image: url(https://i.ytimg.com/vi/DnU4JVKncDg/hqdefault.jpg);
+    background-size: cover;
+}
+#rightsidebar{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin-top: 160px;
+}
+input{
+    height: 30px;
+    width: 40%;
+    margin-bottom: 20px;
+}
+.formButton{
+    height: 30px;
+    width: 40%;
+    background: #00ad5f;
+    color: whitesmoke;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+.formButton:hover{
+background-color: black;
+}
+a{
+    color: #00ad5f;
+    transition-property: color;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+a.hover{
+    background-color: black;
+}
