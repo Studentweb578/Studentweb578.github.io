@@ -20,6 +20,7 @@
 .menu-a {
     padding: 15px 20px;
     color: white;
+    
 }
 
 .menu-a:hover {
@@ -395,3 +396,5 @@ ul.social-footer2 li a {
     top: 150px;
     left: 300px;
 }
+
+
