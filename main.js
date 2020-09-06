@@ -129,10 +129,6 @@ let dataFilm = [
         link:"https://www.youtube.com/watch?v=0W1AueDWJm8"
  
     },
-    {
-        video:"",
-        title:"                 "
-    }
 
 ]
 let randomNumberDataNew2 = Math.floor(Math.random()*dataFilm.length)
